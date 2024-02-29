@@ -34,8 +34,8 @@ function Header() {
               About
             </li>
           </Link>
-          <Link to={"/sign-in"}>
-            <li className=" text-slate-700 hover:underline">Sign In</li>
+          <Link to={"/sign-up"}>
+            <li className=" text-slate-700 hover:underline">Sign up</li>
           </Link>
         </ul>
       </div>
