@@ -23,8 +23,8 @@ const app = express();
 app.use(express.json());
 app.use(cookieParser());
 //allocated the local port to the server
-app.listen(3002, () => {
-  console.log("server is running on port 3001!");
+app.listen(3000, () => {
+  console.log("server is running on port 3000!");
 });
 
 app.use("/api/user", userRouter);
